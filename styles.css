@@ -7,5 +7,7 @@ body{
 .naslov{
 
     display: flex;
-    align-self: center;
+    align-self:center;
+    background-color: rgba(16, 197, 16, 0.452);
+    
 }
