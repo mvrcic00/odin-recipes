@@ -1,13 +1,42 @@
+*{
+
+border: 2px solid red;   
+color:whitesmoke 
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body{   
 
     display: flex;
     flex-direction: column;
+    
+    
+
 }
 
-.naslov{
 
+p,a{
+text-decoration:aqua;
+font-size:larger;
+
+}
+
+.header_logo_links{
     display: flex;
-    align-self:center;
-    background-color: rgba(16, 197, 16, 0.452);
+    justify-content:space-between;
     
+
+}
+
+.header_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+
+
 }
