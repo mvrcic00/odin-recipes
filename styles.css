@@ -1,8 +1,12 @@
+/*This segment is only for visualization!*/
 *{
-
-border: 2px solid red;   
-color:whitesmoke 
-}
+    
+    padding: 10px;
+    color:whitesmoke 
+    
+    
+    }
+/*##########################################*/
 html, body {
     margin: 0;
     height: 100%;
@@ -12,11 +16,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    
-    
-
 }
-
 
 p,a{
 text-decoration:aqua;
@@ -24,19 +24,75 @@ font-size:larger;
 
 }
 
+/*###HEADER###HEADER###HEADER###HEADER###*/
+.header{
+    background-color: #1f2937;
+
+}
 .header_logo_links{
     display: flex;
     justify-content:space-between;
-    
-
 }
 
 .header_bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 15px;
 }
 
-.footer{
+.slika1_2{
 
+width:fit-content;
+
+   
 
 }
+
+
+
+img{
+    max-width: 250px;
+    max-height: 250px;
+
+    
+}
+
+#logo{
+
+    font-size: 24px;
+    font-weight: bold;
+    color:#f9faf8;
+}
+
+#links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+button{
+   
+    text-align: center;
+    cursor:pointer;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 4s;
+    background-size: 300% 100%;
+
+    
+
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+
+}
+
+button:hover{
+    background-position: right center;
+
+}
+
+
+
