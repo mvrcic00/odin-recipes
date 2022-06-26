@@ -1,6 +1,6 @@
 /*This segment is only for visualization!*/
 *{
-    
+    border:1px solid red;
     padding: 10px;
     color:whitesmoke 
     
@@ -50,6 +50,7 @@ width:fit-content;
 
 
 
+
 img{
     max-width: 250px;
     max-height: 250px;
@@ -68,6 +69,14 @@ img{
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.link1:hover{   text-decoration: underline;     }
+
+.link2:hover{   text-decoration: underline;     }
+
+.link3:hover{   text-decoration: underline;     }
+
+
 
 
 button{
