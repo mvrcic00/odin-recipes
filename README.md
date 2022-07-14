@@ -1,3 +1,3 @@
 # odin-recipe
-Prva web stranica :)
-VJezba
+Prva web stranica :D
+Služi za vježbanje HTML, CSS-a .
